@@ -1,0 +1,44 @@
+p,h1 {
+
+	display: inline-block;
+	position: relative;
+	left: 50px !important;
+	top: 100px;
+	display: flex;
+}
+
+
+
+#p {
+	background: url('./hcode.svg') no-repeat;
+	width: 450px;
+	height: 150px;
+}
+
+
+.conteúdo {
+	display: flex;
+	align-items: center;
+}
+
+
+.waves {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	margin-bottom: -7px;
+	/*Fix for safari gap*/
+	bottom: -106px;
+	min-height: 100px;
+	max-height: 150px;
+}
+
+.content {
+	position: absolute;
+	height: 100px;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	align-content: flex-end;
+}
